@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ktkws
+Version: 1.0.1
+Summary: A Python extension module for KT KWS
+Home-page: UNKNOWN
+Author: CheolMin Lee
+Author-email: cheolmin.lee@gmail.com
+License: KT License
+Description: UNKNOWN
+Platform: Raspbian
+Platform: Ubuntu Linux

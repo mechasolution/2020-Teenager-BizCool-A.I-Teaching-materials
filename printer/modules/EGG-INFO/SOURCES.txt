@@ -1,0 +1,6 @@
+ktkws.cc
+setup.py
+ktkws.egg-info/PKG-INFO
+ktkws.egg-info/SOURCES.txt
+ktkws.egg-info/dependency_links.txt
+ktkws.egg-info/top_level.txt

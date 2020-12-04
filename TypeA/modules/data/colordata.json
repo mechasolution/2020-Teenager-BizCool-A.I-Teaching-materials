@@ -1,0 +1,18 @@
+{
+    "color_to_korean" : {
+        "red": "빨간색",
+        "red2": "빨간색",
+        "green": "초록색",
+        "yellow": "노란색",
+        "?" : "?"
+    },
+    "color_to_english" : {
+        "빨강": "red",
+        "빨간": "red",
+        "노란": "yellow", 
+        "노랑": "yellow", 
+        "초록": "green",
+        "녹색": "green",
+        "?" : "?"
+    }
+}
