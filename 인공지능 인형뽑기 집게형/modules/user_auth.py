@@ -12,9 +12,9 @@ import hmac
 import hashlib
 
 # Config for GiGA Genie gRPC
-CLIENT_ID = 'Y2xpZW50X2lkMTYwMTk4MjkyOTAyNw=='
-CLIENT_KEY = 'Y2xpZW50X2tleTE2MDE5ODI5MjkwMjc='
-CLIENT_SECRET = 'Y2xpZW50X3NlY3JldDE2MDE5ODI5MjkwMjc='
+CLIENT_ID = ''
+CLIENT_KEY = ''
+CLIENT_SECRET = ''
 
 ### COMMON : Client Credentials ###
 def getMetadata():
