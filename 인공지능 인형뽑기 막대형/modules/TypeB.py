@@ -133,7 +133,7 @@ def generate_tts_from_color():
 def get_ball_with_stt(colorname):
   global color_data_list
   final_key = 0
-  if colorname == "red" and not color_data_list.has_key(colorname):
+  if colorname == "red" and not (colorname in color_data_list):
     colorKey = "red2"
   for key in color_data_list:
     if color_data_list[key] == colorname:
