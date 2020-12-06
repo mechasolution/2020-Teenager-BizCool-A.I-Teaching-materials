@@ -17,7 +17,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 GPIO.setup(31, GPIO.OUT)
 Serial = serial.Serial(
-  port = '/dev/ttyUSB0',
+  port = '/dev/ttyACM0',
   baudrate = 9600,
 )
 
@@ -26,7 +26,7 @@ import cv2
 import numpy as np
 import json
 import copy
-with open ('data_A/data.json', 'r') as f:
+with open ('data/data.json', 'r') as f:
   json_data = json.load(f)
 capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
